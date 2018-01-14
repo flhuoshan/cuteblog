@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+{% load static %}
+<head>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Albert,to be a hero</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="Albert,keyword2,keyword3">
+    <meta http-equiv="description" content="to be a hero">
+    <meta charset="UTF-8">
+    <link href="{% static 'welcome/css/style.css' %}" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<div id="container">
+    <div id="header">
+        <h1>Welcome<p>不忘初心，方得始终</p></h1>
+        <a href="/google/index">&nbsp;&nbsp;前往|Go for fun&nbsp;&nbsp;</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=475296958&amp;site=qq&amp;menu=yes" target="_blank">联系我|Contact
+            me</a>
+    </div>
+    <video id="bgvideo" autoplay="true" width="100%" name="media" poster="images/123.jpg"><!--将这里的预览图更换为你自己的-->
+        <source src="{% static 'welcome/vedio/1.mp4' %}" type="video/mp4">
+        <!--{% static 'polls/style.css' %}-->
+
+
+        <a href="http://www.google.cn/chrome/browser/" target="_blank">Chrome浏览器</a>或<a
+                href="http://www.firefox.com.cn/download/" target="_blank">Firefox浏览器</a>
+    </video>
+</div>
+
+
+</body>
+</html>
